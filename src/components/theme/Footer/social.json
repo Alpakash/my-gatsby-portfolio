@@ -1,0 +1,33 @@
+[
+  {
+    "id": 1,
+    "name": "Github",
+    "link": "https://github.com/alpakash",
+    "icon": "/icons/github.svg"
+  },
+  {
+  "id": 2,
+  "name": "Instagram",
+  "link": "https://instagram.com/alpacash",
+  "icon": "/icons/instagram.svg"
+  },
+  {
+  "id": 3,
+  "name": "LinkedIn",
+  "link": "https://www.linkedin.com/in/akashsoedamah/",
+  "icon": "/icons/linkedin.svg"
+  },
+
+  {
+    "id": 4,
+    "name": "Twitter",
+    "link": "https://twitter.com/veggiecoder",
+    "icon": "/icons/twitter.svg"
+  },
+  {
+    "id": 5,
+    "name": "StackOverflow",
+    "link": "https://stackoverflow.com/users/5600078/alpakash",
+    "icon": "/icons/stackoverflow.svg"
+  }
+]

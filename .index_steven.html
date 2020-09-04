@@ -1,0 +1,50 @@
+<div class="container">
+  <div class="category" id="stap1_particulier">Particulier Vastgoed</div>
+  <div class="category" id="stap1_commercieel">Commercieel Vastgoed</div>
+  <div class="category" id="stap1_reclame">Reclame en overig</div>
+</div>
+
+<form>
+<input type="text" placeholder="Write your name" name="name" />
+<button type="submit">Submit</button>
+</form>
+
+<style>
+  .category {
+    border: 1px black solid;
+    padding: 30px;
+    margin: 30px;
+    display: flex;
+  }
+</style>
+
+<script>
+const step = document.getElementById('stap1_particulier');
+
+step.onclick = function changeContent() {};
+
+/*
+1.  Direct aanvragen
+	- 3 stappen formulier -> 4 blokken, als gelikt, 3 blokken met prijzen
+	- formulier
+
+2. portfolio
+	- Filter knop, zelfde kleur als header en footer kleur (dark theme)
+
+
+In stap 1 moeten de children een specifieke id krijgen 
+stap1_particulier_vastgoed, stap1_commercieel_vastgoed, stap1_reclame-overig
+
+// op basis van de id, moeten er 3 prijzen worden ingeladen
+// prijzen krijgen allen ook een eigen value
+
+// die worden in stap 3 doorgegeven in het formulier
+
+dan moet de volgende stap geshowed worden
+*/
+
+// select id step1, hoofdcategorien
+// select id step2, prijzen
+
+// select id step3, formulier
+</script>
