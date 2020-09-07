@@ -1,16 +1,17 @@
 import React from 'react';
 import { Container } from 'components/common';
-import contact from 'assets/illustrations/contact.svg';
+import ContactImg from 'assets/svgs/ContactImg';
 import { Wrapper, Details, Thumbnail } from './styles';
 import ContactForm from './ContactForm';
 
 export const Contact = () => (
   <Wrapper as={Container} id="contact">
     <Details>
+    <h2>Let's get in touch</h2>
       <ContactForm />
     </Details>
     <Thumbnail>
-      <img src={contact} alt="I’m John and I’m a Backend & Devops engineer!" />
+      <ContactImg hairColor="#000" skinColor="#a85400" tieColor="rgb(0, 176, 255)" leaveColors="black"/>
     </Thumbnail>
   </Wrapper>
 );

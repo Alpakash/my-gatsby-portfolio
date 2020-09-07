@@ -44,7 +44,5 @@ export const Thumbnail = styled.div`
     margin-bottom: 2rem;
   }
 
-  img {
-    width: 100%;
-  }
+  width: 100%;
 `;

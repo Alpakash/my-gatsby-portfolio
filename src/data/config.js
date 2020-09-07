@@ -1,6 +1,6 @@
 module.exports = {
   defaultTitle: 'Akash Soedamah',
-  logo: 'https://portfolio.smakosh.com/favicon/favicon-512.png',
+  logo: '',
   author: 'Akash Soedamah',
   url: 'https://akashsoedamah.com',
   legalName: 'Akash Soedamah',
@@ -15,7 +15,7 @@ module.exports = {
   themeColor: '#6b63ff',
   backgroundColor: '#6b63ff',
   social: {
-    facebook: 'appId',
+    facebook: 'akash.soedamah.1',
     twitter: '@veggiecoder',
   },
   address: {
