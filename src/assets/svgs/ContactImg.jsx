@@ -4,7 +4,7 @@ import PropTypes from "prop-types";
 const ContactImg = (props) => {
   return (
       <svg
-        class="svg-box"
+        class="svg-box hide-mobile"
         xmlns="http://www.w3.org/2000/svg"
         width="473.53"
         height="401.44"

@@ -6,6 +6,12 @@ export const Global = createGlobalStyle`
  width: 100%;
 }
 
+@media only screen and (max-width: 600px) { 
+  .hide-mobile {
+    display: none;
+  }
+}
+
 
   html {
     font-family: 'Roboto', Helvetica, sans-serif;
