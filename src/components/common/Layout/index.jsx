@@ -11,8 +11,10 @@ export const Layout = ({ children }) => {
   return (
     <>
       <Global theme={theme} />
-      {children}
-      <Footer />
+      <Router>
+        {children}
+        <Footer />
+      </Router>
     </>
   );
 };
