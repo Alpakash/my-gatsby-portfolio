@@ -1,10 +1,12 @@
 import { useState, useEffect } from 'react';
 import useMedia from 'hooks/useMedia';
+const isBrowser = typeof window !== `undefined`;
 
 export default () => {
   const [theme, setTheme] = useState('light');
 
   const toggleTheme = () => {
+if (isBrowser) {
     if (theme === 'light') {
       window.localStorage.setItem('theme', 'dark');
       setTheme('dark');
@@ -12,6 +14,7 @@ export default () => {
       window.localStorage.setItem('theme', 'light');
       setTheme('light');
     }
+  }
   };
 
   const prefersDarkMode = useMedia(['(prefers-color-scheme: dark)'], [true], false);
@@ -29,4 +32,5 @@ export default () => {
   }, [prefersDarkMode]);
 
   return [theme, toggleTheme];
+  
 };
