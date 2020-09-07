@@ -2,8 +2,6 @@ import React, { useContext, useState } from 'react';
 import { ThemeContext } from 'providers/ThemeProvider';
 import { Container, Button } from 'components/common';
 import SkillsImg from 'assets/svgs/SkillsImg';
-import { Link } from 'react-router-dom';
-import AnchorLink from 'react-anchor-link-smooth-scroll';
 import { Wrapper, SkillsWrapper, Details, Thumbnail } from './styles';
 
 export const Skills = () => {
@@ -40,15 +38,9 @@ export const Skills = () => {
           <div>
             <br />
             <br />
-            <Link
-              to={{
-                pathname:
-                  "https://drive.google.com/file/d/1eiyuvsv3v1pUGATDbwrXCVN7PT3k80Yb/view",
-              }}
-              target="_blank"
-            >
+            <a href="https://drive.google.com/file/d/1eiyuvsv3v1pUGATDbwrXCVN7PT3k80Yb/view" target="_blank">
               <Button alignRight>Resume</Button>
-            </Link>
+            </a>
           </div>
         </Details>
       </SkillsWrapper>
