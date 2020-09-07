@@ -13,8 +13,17 @@ export const Footer = () => (
                  with{" "}
                  <span aria-label="love" role="img">
                    💖
-                 </span>, Gatsby, React and deployed with Vercel.
+                 </span>
+                 , Gatsby, React and deployed with Vercel.
                </span>
+               <br />
+               <br />
+               Also checkout my blog{" "}
+               <strong>
+                 <a href="https://www.veggiecoder.com" target="_blank">
+                   VeggieCoder
+                 </a>
+               </strong>
              </Details>
              <Links>
                <span>Follow me on </span>
