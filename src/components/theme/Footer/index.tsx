@@ -1,7 +1,14 @@
 import React from 'react';
-import { Container } from 'components/common';
+import { Container } from '../../../components/common';
 import { Wrapper, Flex, Links, Details } from './styles';
 import social from './social.json';
+
+interface Social {
+  id: number;
+  name: string;
+  link: string;
+  icon: string;
+}
 
 export const Footer = () => (
          <Wrapper>
@@ -10,7 +17,7 @@ export const Footer = () => (
                <h2>Akash Soedamah</h2>
                <span>
                  © All rights are reserved | {new Date().getFullYear()} | Made
-                 with{" "}
+                 with{' '}
                  <span aria-label="love" role="img">
                    💖
                  </span>
@@ -18,7 +25,7 @@ export const Footer = () => (
                </span>
                <br />
                <br />
-               Also checkout my blog{" "}
+               Also checkout my blog{' '}
                <strong>
                  <a href="https://www.veggiecoder.com" target="_blank">
                    VeggieCoder
@@ -27,7 +34,7 @@ export const Footer = () => (
              </Details>
              <Links>
                <span>Follow me on </span>
-               {social.map(({ id, name, link, icon }) => (
+               {social.map(({ id, name, link, icon }: Social) => (
                  <a
                    key={id}
                    href={link}

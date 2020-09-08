@@ -9,11 +9,17 @@ module.exports = {
     title: config.defaultTitle,
     description: config.defaultDescription,
     author: config.author,
+    siteUrl: config.url,
+    social: {
+      twitter: config.social.twitter,
+      github: config.social.github
+    }
   },
   plugins: [
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-styled-components',
     'gatsby-transformer-sharp',
+    'gatsby-plugin-typescript',
     'gatsby-plugin-sharp',
     {
       resolve: 'gatsby-source-graphql',

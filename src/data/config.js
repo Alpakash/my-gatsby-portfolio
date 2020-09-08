@@ -10,6 +10,7 @@ module.exports = {
     github: 'https://github.com/alpakash',
     linkedin: 'https://www.linkedin.com/in/akashsoedamah/',
     instagram: 'https://instagram.com/alpacash',
+    linkedin: 'https://www.linkedin.com/in/akashsoedamah/'
   },
   googleAnalyticsID: 'UA-88875900-4',
   themeColor: '#6b63ff',
@@ -17,15 +18,17 @@ module.exports = {
   social: {
     facebook: 'akash.soedamah.1',
     twitter: '@veggiecoder',
+    instagram: '@alpacash',
+    github: 'alpakash',
   },
   address: {
     city: 'Almere',
     country: 'The Netherlands',
-    zipCode: '1325AK',
+    zipCode: '1325AK'
   },
   contact: {
     email: 'akash.soedamah@gmail.com',
-    phone: '+316 25023146',
+    phone: '+316 25023146'
   },
-  foundingDate: '2020',
+  foundingDate: '2020'
 };

@@ -24,11 +24,13 @@ export const Skills = () => {
             to grow into a product owner with deep technical understanding.
           </p>
           <strong>Frontend: </strong>
-          <em>JavaScript, React, VueJS, NodeJS, Express, Laravel </em>
+          <em>
+            JavaScript, TypeScript, React, VueJS, NodeJS, Express, Laravel
+          </em>
           <br />
           <br />
           <strong>Backend:</strong>
-          <em>GraphQL, MongoDB, MySQL, AWS, Azure, TeamCity</em>
+          <em>GraphQL, MongoDB, MySQL, AWS, Azure DevOps, TeamCity</em>
           <br />
           <br />
           <strong>Other: </strong>
@@ -38,8 +40,11 @@ export const Skills = () => {
           <div>
             <br />
             <br />
-            <a href="https://drive.google.com/file/d/1eiyuvsv3v1pUGATDbwrXCVN7PT3k80Yb/view" target="_blank">
-              <Button alignRight>Resume</Button>
+            <a
+              href="https://drive.google.com/file/d/1eiyuvsv3v1pUGATDbwrXCVN7PT3k80Yb/view"
+              target="_blank"
+            >
+              <Button alignRight>Résumé</Button>
             </a>
           </div>
         </Details>
