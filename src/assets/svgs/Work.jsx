@@ -3,7 +3,7 @@ import React from 'react';
 const IntroImg = (props) => {
   return (
     <svg
-    class="svg-box"
+    className="svg-box"
       xmlns="http://www.w3.org/2000/svg"
       xmlnsXlink="http://www.w3.org/1999/xlink"
       width="500.44"

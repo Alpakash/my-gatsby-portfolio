@@ -3,7 +3,7 @@ import React from "react";
 const SkillsImg = (props) => {
   return (
     <svg
-      class="svg-box hide-mobile"
+      className="svg-box hide-mobile"
       xmlns="http://www.w3.org/2000/svg"
       width="725.497"
       height="445.184"

@@ -1,12 +1,10 @@
-import React, { useContext, useState } from 'react';
-import { ThemeContext } from 'providers/ThemeProvider';
+import React, { useEffect } from 'react';
 import { Container, Button } from 'components/common';
 import SkillsImg from 'assets/svgs/SkillsImg';
 import { Wrapper, SkillsWrapper, Details, Thumbnail } from './styles';
+import ScriptTag from 'react-script-tag';
 
 export const Skills = () => {
-  const { theme } = useContext(ThemeContext);
-
   return (
     <Wrapper id="about">
       <SkillsWrapper as={Container}>
@@ -17,8 +15,8 @@ export const Skills = () => {
             boardColor="#e0e0e0"
           />
         </Thumbnail>
-        <Details theme={theme}>
-          <h1>Skills & interests</h1>
+        <Details>
+          <h2>Skills & interests</h2>
           <p>
             The ME(R/V)N- and JAM Stack are my focus at the moment. I would love
             to grow into a product owner with deep technical understanding.

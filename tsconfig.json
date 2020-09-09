@@ -11,10 +11,11 @@
         ],
         "strict": true,
         "noEmit": true,
-        "isolatedModules": true,
+        "isolatedModules": false,
         "esModuleInterop": true,
         "noUnusedLocals": false,
-        "allowJs": true
+        "allowJs": true,
+        "skipLibCheck": true
     },
     "exclude": [
         "node_modules",
