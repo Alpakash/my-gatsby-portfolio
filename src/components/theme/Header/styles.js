@@ -6,17 +6,21 @@ export const Wrapper = styled.div`
 `;
 
 export const Overlay = styled.div`
-  position: fixed;
-  background: rgba(0, 0, 0, 0.7);
-  width: 100%;
-  height: 100%;
-  display: none;
-  transition: 0.4s;
+         @media (min-width: 961px) {
+           display: none;
+         }
+         
+         position: fixed;
+         background: rgba(0, 0, 0, 0.7);
+         width: 100%;
+         height: 100%;
+         display: none;
+         transition: 0.4s;
 
-  ${({ sidebar }) =>
-    sidebar &&
-    `
+         ${({ sidebar }) =>
+           sidebar &&
+           `
 			display: block;
 			z-index: 4;	
 	`}
-`;
+       `;

@@ -6,7 +6,7 @@ export default () => (
   <Layout>
     <SEO />
     <Intro />
-    <div class="hide-title-mobile">
+    <div className="hide-title-mobile">
       <center>
         <h2>Random snakes appeared! Press W, A, S or D!</h2>
         <p>

@@ -5,12 +5,14 @@ import { Wrapper } from './styles';
 
 const Sidebar = ({ sidebar, toggle }) => {
   const { theme } = useContext(ThemeContext);
-  
+
   return (
-  <Wrapper active={sidebar} onClick={toggle} theme={theme}>
-    <NavbarLinks />
-  </Wrapper>
-  )
+    <Wrapper active={sidebar} theme={theme}>
+      <div onClick={() => toggle(!sidebar)}>
+        <NavbarLinks onClick={() => toggle(!sidebar)} />
+      </div>
+    </Wrapper>
+  );
 };
 
 export default Sidebar;
