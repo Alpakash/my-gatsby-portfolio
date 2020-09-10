@@ -38,7 +38,7 @@ const resetGame = () => {
     { x: 170, y: 200 },
     { x: 160, y: 200 }
   ];
-  speed = 100;
+  speed = 70;
 
   // reset snakes direction, head moving to the right
   dx = 10;

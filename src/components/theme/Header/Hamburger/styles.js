@@ -1,34 +1,40 @@
 import styled from 'styled-components';
 
 export const Wrapper = styled.div`
-  z-index: 5;
-  top: 1.6rem;
-  right: 1.8rem;
-  display: none;
-  cursor: pointer;
-  transition: left 500ms cubic-bezier(0.6, 0.05, 0.28, 0.91);
-  position: absolute;
+         z-index: 5;
+         top: 1.4rem;
+         right: 1rem;
+         display: none;
+         cursor: pointer;
+         transition: left 500ms cubic-bezier(0.6, 0.05, 0.28, 0.91);
+         position: fixed;
+         background-color: #f0f0f0;
+         padding: 15px;
 
-  @media (max-width: 960px) {
-    display: block;
-  }
+         @media (max-width: 960px) {
+           display: block;
+         }
 
-  ${({ sidebar }) =>
-    sidebar &&
-    `
-			right: 18%;
+         ${({ sidebar }) =>
+           sidebar &&
+           `
+		
+
+			right: 1rem;
 			top: 1.4rem;
 		
 			@media (max-width: 960px) {
-				right: 35%;
+				right: 1rem;
 				position: fixed;
 			}
 		
 			@media (max-width: 600px) {
-				right: 66%;
+				right: 1rem;
 			}
+
+			
 	`}
-`;
+       `;
 
 export const Bar = styled.div`
 	width: 1.6rem;
