@@ -6,7 +6,8 @@ import {
   Contact,
   Projects,
   Snake,
-  Hobbies
+  Hobbies,
+  BackTop
 } from 'components/landing';
 
 export default () => (
@@ -31,5 +32,6 @@ export default () => (
     </div>
     <Snake />
     <Contact />
+    <BackTop showBelow={250} />
   </Layout>
 );
