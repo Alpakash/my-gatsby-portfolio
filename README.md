@@ -26,4 +26,5 @@ This portfolio is built to showcase my work so far. I will maintain it during my
 
 ## :heavy_check_mark: To-do ##
 1. Showcase my WordPress projects 
-2. Build awesome projects to showcase :wink::rainbow:
+2. Change the project from JavaScript to TypeScript
+3. Build awesome projects :wink::rainbow:
