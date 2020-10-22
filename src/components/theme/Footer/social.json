@@ -6,12 +6,6 @@
     "icon": "/icons/github.svg"
   },
   {
-  "id": 2,
-  "name": "Instagram",
-  "link": "https://instagram.com/alpacash",
-  "icon": "/icons/instagram.svg"
-  },
-  {
   "id": 3,
   "name": "LinkedIn",
   "link": "https://www.linkedin.com/in/akashsoedamah/",

@@ -12,12 +12,15 @@ const NavbarLinks = ({ desktop }) => {
       <AnchorLink href="#intro">
         <strong>HOME</strong>
       </AnchorLink>
-      <AnchorLink href="#about">
-        <strong>ABOUT</strong>
+      <AnchorLink href="#skills">
+        <strong>SKILLS</strong>
       </AnchorLink>
       <AnchorLink href="#projects">
         <strong>PROJECTS</strong>
       </AnchorLink>
+      <a href="https://www.veggiecoder.com" target="_blank">
+        <strong>BLOG</strong>
+      </a>
       <AnchorLink href="#contact">
         <strong>CONTACT</strong>
       </AnchorLink>

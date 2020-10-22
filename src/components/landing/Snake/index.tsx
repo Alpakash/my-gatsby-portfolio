@@ -1,5 +1,6 @@
 import React, { useEffect, useState, FunctionComponent } from 'react';
 import { Container } from '../../common';
+// @ts-ignore
 import ScriptTag from 'react-script-tag';
 import styled from 'styled-components';
 import { Wrapper } from './styles';
@@ -53,10 +54,10 @@ export const Snake = () => {
 
 
   return (
-    <Wrapper>
-      <canvas id="snakeboard"  width="752" height="500" />
-      <canvas id="snakeboard2" width="752" height="500" />
-      <canvas id="snakeboard3" width="752" height="500" />
-    </Wrapper>
+      <Wrapper>
+        <canvas id="snakeboard" width="752" height="500" />
+        <canvas id="snakeboard2" width="752" height="500" />
+        <canvas id="snakeboard3" width="752" height="500" />
+      </Wrapper>
   );
 };

@@ -4,13 +4,19 @@ export const Wrapper = styled.div`
          a {
            color: #000;
            text-decoration: none;
-		   margin: 50px 0;
+		   margin: 50px 25px;
 		   text-align: center;
 
            @media (max-width: 960px) {
              color: '#000';
            }
-         }
+         
+		&:hover {
+			font-style: italic;
+		}
+
+		 }
+
 		 
          ${({ sidebar }) =>
            sidebar &&

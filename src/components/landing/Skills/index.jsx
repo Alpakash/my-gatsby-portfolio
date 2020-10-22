@@ -1,12 +1,11 @@
 import React, { useEffect } from 'react';
 import { Container, Button } from 'components/common';
-import SkillsImg from 'assets/svgs/SkillsImg';
+import SkillsImg from 'assets/react-svgs/SkillsImg';
 import { Wrapper, SkillsWrapper, Details, Thumbnail } from './styles';
-import ScriptTag from 'react-script-tag';
 
 export const Skills = () => {
   return (
-    <Wrapper id="about">
+    <Wrapper id="skills">
       <SkillsWrapper as={Container}>
         <Thumbnail>
           <SkillsImg

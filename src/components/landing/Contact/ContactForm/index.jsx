@@ -107,7 +107,7 @@ export default () => (
           </InputField>
         )}
         <Center>
-          <Button secondary type="submit" disabled={isSubmitting}>
+          <Button type="submit" disabled={isSubmitting}>
             Send message
           </Button>
         </Center>

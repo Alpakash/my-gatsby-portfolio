@@ -22,30 +22,38 @@ module.exports = {
     'gatsby-plugin-typescript',
     'gatsby-plugin-sharp',
     {
+      resolve: 'gatsby-plugin-react-svg',
+      options: {
+        rule: {
+          include: /\.inline\.svg$/
+        }
+      }
+    },
+    {
       resolve: 'gatsby-source-graphql',
       options: {
         typeName: 'GitHub',
         fieldName: 'github',
         url: 'https://api.github.com/graphql',
         headers: {
-          Authorization: `bearer ${process.env.GATSBY_PORTFOLIO_GITHUB_TOKEN}`,
+          Authorization: `bearer ${process.env.GATSBY_PORTFOLIO_GITHUB_TOKEN}`
         },
-        fetchOptions: {},
-      },
+        fetchOptions: {}
+      }
     },
     {
       resolve: 'gatsby-plugin-nprogress',
       options: {
         color: config.themeColor,
-        showSpinner: false,
-      },
+        showSpinner: false
+      }
     },
     {
       resolve: 'gatsby-plugin-google-analytics',
       options: {
         trackingId: config.googleAnalyticsID,
-        head: true,
-      },
+        head: true
+      }
     },
     {
       resolve: 'gatsby-plugin-manifest',
@@ -56,9 +64,9 @@ module.exports = {
         background_color: config.backgroundColor,
         theme_color: config.themeColor,
         display: 'minimal-ui',
-        icon: './static/favicon/favicon-512.png',
-      },
+        icon: './static/favicon/favicon-512.png'
+      }
     },
-    'gatsby-plugin-offline',
-  ],
+    'gatsby-plugin-offline'
+  ]
 };
