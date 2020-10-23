@@ -1,7 +1,6 @@
 import React, { useContext } from 'react';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 import { ThemeContext } from 'providers/ThemeProvider';
-import { Header } from 'components/theme';
 import { Container, Button } from 'components/common';
 import IntroImg from 'assets/react-svgs/Work';
 import { Wrapper, IntroWrapper, Details, Thumbnail } from './styles';
@@ -11,7 +10,6 @@ export const Intro = () => {
 
   return (
     <Wrapper id="intro">
-      <Header />
       <IntroWrapper as={Container}>
         <Details theme={theme}>
           <h1>Hi there, human!</h1>

@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-import detailsIllustration from 'assets/illustrations/details.svg';
 
 export const WordPressButton = styled.div`
          display: flex;
@@ -12,18 +11,18 @@ export const WordPressButton = styled.div`
            padding: 1rem 3rem;
            color: grey;
            text-transform: uppercase;
-           box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.11);
+           box-shadow: 5px 3px 6px 0 rgba(0, 0, 0, 0.11);
          }
+       `;
+
+export const Wrapper = styled.div`
+         padding: 2rem 0;
 
          .btn {
            text-decoration: none;
            position: relative;
            overflow: hidden;
            border-radius: 20px;
-         }
-
-         .btn:hover {
-           box-shadow: 1px 1px 25px 10px rgba(0, 116, 217, 0.4);
          }
 
          .btn:before {
@@ -45,10 +44,6 @@ export const WordPressButton = styled.div`
          .btn:hover:before {
            left: 100%;
          }
-       `;
-
-export const Wrapper = styled.div`
-         padding: 2rem 0;
        `;
 
 export const Grid = styled.div`

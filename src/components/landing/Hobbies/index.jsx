@@ -13,13 +13,13 @@ export const Hobbies = () => (
            <Wrapper as={Container}>
              <PersonalCard>
                <Pin width="100px" />
-               <h2>Born and raised</h2>
+               <h2>Born and raised in</h2>
                <p>Amsterdam, The Netherlands</p>
              </PersonalCard>
 
              <PersonalCard>
                <Food width="100px" />
-               <h2>Cook delicious food</h2>
+               <h2>Cooking delicious food</h2>
                <p>I'm vegetarian</p>
              </PersonalCard>
 

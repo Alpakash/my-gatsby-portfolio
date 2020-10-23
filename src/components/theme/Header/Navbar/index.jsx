@@ -9,12 +9,12 @@ const Navbar = () => {
   const { theme } = useContext(ThemeContext);
 
   return (
-    <Wrapper as={Container}>
-      <Brand as={Link} to="/" theme={theme}>
-        Akash Soedamah
-      </Brand>
-      <NavbarLinks desktop />
-    </Wrapper>
+      <Wrapper>
+        <Brand as={Link} to="/" theme={theme}>
+          Akash Soedamah
+        </Brand>
+        <NavbarLinks desktop />
+      </Wrapper>
   );
 };
 

@@ -2,26 +2,27 @@ import styled from 'styled-components';
 import overlayIllustration from 'assets/illustrations/overlay.svg';
 
 export const Wrapper = styled.div`
-  padding-bottom: 4rem;
-  background-image: url(${overlayIllustration});
-  background-size: contain;
-  background-position: right top;
-  background-repeat: no-repeat;
-  @media (min-width: 768px) {
-   margin-bottom: 100px;
-  }
-`;
+         padding-top: 69px;
+         padding-bottom: 4rem;
+         background-image: url(${overlayIllustration});
+         background-size: contain;
+         background-position: right top;
+         background-repeat: no-repeat;
+         @media (min-width: 768px) {
+           margin-bottom: 100px;
+         }
+       `;
 
 export const IntroWrapper = styled.div`
-  padding: 4rem 0;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+         padding: 4rem 0;
+         display: flex;
+         align-items: center;
+         justify-content: space-between;
 
-  @media (max-width: 960px) {
-    flex-direction: column;
-  }
-`;
+         @media (max-width: 960px) {
+           flex-direction: column;
+         }
+       `;
 
 export const Details = styled.div`
   flex: 1;

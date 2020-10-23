@@ -9,10 +9,11 @@ import {
   Hobbies,
   BackTop
 } from 'components/landing';
-
+import { Header } from 'components/theme';
 export default () => (
   <Layout>
     <SEO />
+    <Header />
     <Intro />
     <Projects />
     <Skills />
