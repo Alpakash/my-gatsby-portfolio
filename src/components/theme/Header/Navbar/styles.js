@@ -12,9 +12,10 @@ export const Wrapper = styled.div`
        `;
 
 export const Brand = styled.a`
-  color: '#000';
-
-  @media (max-width: 960px) {
-    mix-blend-mode: 'unset';
-  }
-`;
+         color: '#000';
+         
+         @media (max-width: 960px) {
+           mix-blend-mode: 'unset';
+           display: none;
+         }
+       `;
