@@ -23,8 +23,3 @@ This portfolio is built to showcase my work so far. I will maintain it during my
 - Prettier formatter
 - dotenv
 - yup
-
-## :heavy_check_mark: To-do ##
-1. Showcase my WordPress projects 
-2. Change the project from JavaScript to TypeScript
-3. Build awesome projects :wink::rainbow:
