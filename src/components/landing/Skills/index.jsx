@@ -38,7 +38,7 @@ export const Skills = () => {
             <br />
             <br />
             <a
-              href="https://drive.google.com/file/d/1eiyuvsv3v1pUGATDbwrXCVN7PT3k80Yb/view"
+              href="https://drive.google.com/file/d/1jCVlncQDaNOpepS9ksQ7Oz8nVRmx4X4J/view"
               target="_blank"
             >
               <Button alignRight>Résumé</Button>

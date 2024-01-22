@@ -18,8 +18,8 @@ const NavbarLinks = ({ desktop }) => {
       <AnchorLink href="#projects">
         <strong>PROJECTS</strong>
       </AnchorLink>
-      <a href="https://www.veggiecoder.com" target="_blank">
-        <strong>BLOG</strong>
+      <a href="https://www.fitworld.dev" target="_blank">
+        <strong>FITWORLD BLOG</strong>
       </a>
       <AnchorLink href="#contact">
         <strong>CONTACT</strong>

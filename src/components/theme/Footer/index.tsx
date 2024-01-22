@@ -27,8 +27,8 @@ export const Footer = () => (
                <br />
                Also checkout my blog{' '}
                <strong>
-                 <a href="https://www.veggiecoder.com" target="_blank">
-                   VeggieCoder
+                 <a href="https://www.fitworld.dev/" target="_blank">
+                   FitWorld
                  </a>
                </strong>
              </Details>
