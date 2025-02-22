@@ -16,7 +16,7 @@ module.exports = {
     }
   },
   plugins: [
-    'gatsby-plugin-react-helmet',
+    'gatsby-plugin-react-helmet-async',
     'gatsby-plugin-styled-components',
     'gatsby-transformer-sharp',
     'gatsby-plugin-typescript',
@@ -49,17 +49,19 @@ module.exports = {
       }
     },
     {
-      resolve: 'gatsby-plugin-google-analytics',
+      resolve: 'gatsby-plugin-google-gtag',
       options: {
-        trackingId: config.googleAnalyticsID,
-        head: true
+        trackingIds: [process.env.GATSBY_PORTFOLIO_GA_ID],
+        pluginConfig: {
+          head: true
+        }
       }
     },
     {
       resolve: 'gatsby-plugin-manifest',
       options: {
         name: config.defaultTitle,
-        short_name: 'Akash Portfolio',
+        short_name: 'starter',
         start_url: '/',
         background_color: config.backgroundColor,
         theme_color: config.themeColor,
