@@ -71,17 +71,6 @@ export const Projects = () => {
           </Item>
         ))}
       </Grid>
-      <div className="d-flex">
-        <WordPressButton>
-          <a
-            className="btn"
-            href="https://www.veggiecoder.com/wp/"
-            target="_blank"
-          >
-            Some WordPress projects I've build
-          </a>
-        </WordPressButton>
-      </div>
     </Wrapper>
   );
 };
